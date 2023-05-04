@@ -1,0 +1,96 @@
+
+.nav-item {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: lightskyblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*parallax background image*/
+body {
+    background-image: url("https://tvobsessive.com/wp-content/uploads/2020/03/sunshinefeatured.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+.level{
+    /*make the background switch at 50vh*/
+    background-image: url("images/level.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width : 1000px;
+}
+tr, td {
+    /*light grey background, translucent*/
+    background-color: rgba(211,211,211,0.4);
+    padding: 15px !important;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    font-size: 80px !important;
+    font-weight: bold;
+    text-align: center;
+    /* text-decoration: underline; */
+}
+h2 {
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    font-style: italic;
+}
+h3{
+    text-align: center !important;
+}
+
+p {
+    color: #000000;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+}
+li {
+    color: #000000;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.ref {
+    color: #000000;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: left;
+}
+.animation {    
+    float: right;
+}
